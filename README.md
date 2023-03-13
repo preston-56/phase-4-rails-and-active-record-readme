@@ -19,7 +19,8 @@ dependencies before coding along.
 > be running all the terminal commands inside the lesson directory.
 
 <!-- ## Video Walkthrough -->
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/AYr7juVVz7g?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe> -->
+
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/AYr7juVVz7g?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe> -->
 
 ## Active Record's Role
 
@@ -60,9 +61,9 @@ A typical model file will contain code such as but not limited to the following:
 - [Custom scopes][scopes]
 - Model instance methods
 - Default settings for database columns
-- [Validations][validations]
+- [Validations]
 - [Model-to-model relationships][relationships]
-- [Callbacks][callbacks]
+- [Callbacks]
 - Custom algorithms
 
 _If any/all of the items above aren't familiar to you yet, don't worry. We'll
@@ -82,8 +83,9 @@ particular, we'll want to know our cheese's _name_, its _price_ in dollars, and
 whether it's a _best seller_. In the database, our `cheeses` should look something
 like this:
 
+
 | `id` | `name`      | `price` | `is_best_seller` |
-| ---- | ----------- | ------- | ---------------- |
+| ------ | ------------- | --------- | ------------------ |
 | 1    | Cheddar     | 3       | true             |
 | 2    | Pepper Jack | 4       | true             |
 | 3    | Limburger   | 8       | false            |
